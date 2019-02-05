@@ -29,6 +29,6 @@
   go-tests = true
   unused-packages = true
 
-[[constraint]]
+[[override]]
   name = "github.com/neo4j/neo4j-go-driver"
   version = "1.7.1"
