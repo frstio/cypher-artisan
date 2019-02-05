@@ -89,6 +89,14 @@ func (qb QueryBuilder) Limit(limit int) QueryBuilder {
 	}
 }
 
+// Skip ...
+func (qb QueryBuilder) Skip(skip int) QueryBuilder {
+	return QueryBuilder{
+		qb.query + `
+		SKIP	` + strconv.Itoa(skip),
+	}
+}
+
 // Execute ...
 func (qb QueryBuilder) Execute() string {
 	return qb.query
