@@ -1,8 +1,8 @@
 package artisan
 
 import (
-	art "github.com/rkrasiuk/cypher-artisan/ascii-art"
-	"github.com/rkrasiuk/cypher-artisan/builder"
+	art "github.com/frstio/cypher-artisan/ascii-art"
+	"github.com/frstio/cypher-artisan/builder"
 )
 
 const (
